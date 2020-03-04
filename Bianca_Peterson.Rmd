@@ -1,0 +1,28 @@
+---
+title: ".red[Easy Peasy Plots with {esquisse}]"
+author: "<br><br>Bianca Peterson (PhD)<br>"
+institute: "<br>.teal[Conquest Analytics and Training] <br>.nwupurple[North-West University]<br>"
+date: "`r paste0(format(Sys.time(), '%d %B %Y'))`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["kunoichi", "ninjutsu", "my-style.css", "academicons-1.8.6/academicons-1.8.6/css/academicons.min.css"]
+    seal: true
+    self-contained: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = F, message = F)
+
+```
+
+class: black
+
+.center[
+<iframe width="800" height="630" src="esquisse.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
